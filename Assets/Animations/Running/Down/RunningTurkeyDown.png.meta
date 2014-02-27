@@ -1,0 +1,261 @@
+fileFormatVersion: 2
+guid: 1997d8d769902dc4aacf67e6e38f9b01
+TextureImporter:
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: RunningTurkeyDown_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 1086
+        width: 233
+        height: 248
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: RunningTurkeyDown_1
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 1087
+        width: 233
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: RunningTurkeyDown_2
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 1087
+        width: 233
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: RunningTurkeyDown_3
+      rect:
+        serializedVersion: 2
+        x: 715
+        y: 1087
+        width: 232
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: RunningTurkeyDown_4
+      rect:
+        serializedVersion: 2
+        x: 952
+        y: 1088
+        width: 232
+        height: 246
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: RunningTurkeyDown_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 836
+        width: 231
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: RunningTurkeyDown_6
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 836
+        width: 232
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: RunningTurkeyDown_7
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 835
+        width: 232
+        height: 246
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: RunningTurkeyDown_8
+      rect:
+        serializedVersion: 2
+        x: 715
+        y: 835
+        width: 233
+        height: 246
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: RunningTurkeyDown_9
+      rect:
+        serializedVersion: 2
+        x: 953
+        y: 834
+        width: 233
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: RunningTurkeyDown_10
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 581
+        width: 234
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: RunningTurkeyDown_11
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 580
+        width: 233
+        height: 248
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: RunningTurkeyDown_12
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 579
+        width: 233
+        height: 248
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: RunningTurkeyDown_13
+      rect:
+        serializedVersion: 2
+        x: 718
+        y: 578
+        width: 233
+        height: 249
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: RunningTurkeyDown_14
+      rect:
+        serializedVersion: 2
+        x: 957
+        y: 578
+        width: 232
+        height: 248
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: RunningTurkeyDown_15
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 324
+        width: 232
+        height: 248
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: RunningTurkeyDown_16
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 324
+        width: 232
+        height: 246
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: RunningTurkeyDown_17
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 324
+        width: 232
+        height: 245
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: RunningTurkeyDown_18
+      rect:
+        serializedVersion: 2
+        x: 719
+        y: 324
+        width: 232
+        height: 246
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: RunningTurkeyDown_19
+      rect:
+        serializedVersion: 2
+        x: 957
+        y: 324
+        width: 232
+        height: 248
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: RunningTurkeyDown_20
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 72
+        width: 232
+        height: 248
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: RunningTurkeyDown_21
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 72
+        width: 233
+        height: 249
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: RunningTurkeyDown_22
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 73
+        width: 233
+        height: 248
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: RunningTurkeyDown_23
+      rect:
+        serializedVersion: 2
+        x: 716
+        y: 74
+        width: 233
+        height: 248
+      alignment: 0
+      pivot: {x: 0, y: 0}
+  spritePackingTag: 
+  userData: 

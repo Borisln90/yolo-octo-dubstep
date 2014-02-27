@@ -1,0 +1,261 @@
+fileFormatVersion: 2
+guid: ae3e2c68e22bbf24cb24484564285005
+TextureImporter:
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: RunningTurkeyRight_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 964
+        width: 248
+        height: 233
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: RunningTurkeyRight_1
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 964
+        width: 247
+        height: 233
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: RunningTurkeyRight_2
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 963
+        width: 247
+        height: 233
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: RunningTurkeyRight_3
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 963
+        width: 247
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: RunningTurkeyRight_4
+      rect:
+        serializedVersion: 2
+        x: 1013
+        y: 962
+        width: 246
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: RunningTurkeyRight_5
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 724
+        width: 244
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: RunningTurkeyRight_6
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 724
+        width: 245
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: RunningTurkeyRight_7
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 725
+        width: 246
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: RunningTurkeyRight_8
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 725
+        width: 246
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: RunningTurkeyRight_9
+      rect:
+        serializedVersion: 2
+        x: 1013
+        y: 725
+        width: 247
+        height: 233
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: RunningTurkeyRight_10
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 487
+        width: 247
+        height: 234
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: RunningTurkeyRight_11
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 488
+        width: 248
+        height: 233
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: RunningTurkeyRight_12
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 489
+        width: 248
+        height: 233
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: RunningTurkeyRight_13
+      rect:
+        serializedVersion: 2
+        x: 761
+        y: 490
+        width: 249
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: RunningTurkeyRight_14
+      rect:
+        serializedVersion: 2
+        x: 1015
+        y: 491
+        width: 248
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: RunningTurkeyRight_15
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 253
+        width: 248
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: RunningTurkeyRight_16
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 253
+        width: 247
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: RunningTurkeyRight_17
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 253
+        width: 245
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: RunningTurkeyRight_18
+      rect:
+        serializedVersion: 2
+        x: 764
+        y: 253
+        width: 247
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: RunningTurkeyRight_19
+      rect:
+        serializedVersion: 2
+        x: 1016
+        y: 253
+        width: 248
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: RunningTurkeyRight_20
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 15
+        width: 248
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: RunningTurkeyRight_21
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 14
+        width: 249
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: RunningTurkeyRight_22
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 13
+        width: 248
+        height: 233
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: RunningTurkeyRight_23
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 12
+        width: 248
+        height: 233
+      alignment: 0
+      pivot: {x: 0, y: 0}
+  spritePackingTag: 
+  userData: 

@@ -1,0 +1,261 @@
+fileFormatVersion: 2
+guid: 75db3d1e48bd6484db3ca1bc23206b92
+TextureImporter:
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: RunningTurkeyLeft_0
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 965
+        width: 248
+        height: 233
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: RunningTurkeyLeft_1
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 965
+        width: 248
+        height: 233
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: RunningTurkeyLeft_2
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 966
+        width: 247
+        height: 233
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: RunningTurkeyLeft_3
+      rect:
+        serializedVersion: 2
+        x: 761
+        y: 967
+        width: 247
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: RunningTurkeyLeft_4
+      rect:
+        serializedVersion: 2
+        x: 1014
+        y: 968
+        width: 246
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: RunningTurkeyLeft_5
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 731
+        width: 245
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: RunningTurkeyLeft_6
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 730
+        width: 246
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: RunningTurkeyLeft_7
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 729
+        width: 246
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: RunningTurkeyLeft_8
+      rect:
+        serializedVersion: 2
+        x: 762
+        y: 728
+        width: 246
+        height: 233
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: RunningTurkeyLeft_9
+      rect:
+        serializedVersion: 2
+        x: 1013
+        y: 728
+        width: 247
+        height: 233
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: RunningTurkeyLeft_10
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 489
+        width: 248
+        height: 234
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: RunningTurkeyLeft_11
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 489
+        width: 248
+        height: 233
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: RunningTurkeyLeft_12
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 488
+        width: 249
+        height: 233
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: RunningTurkeyLeft_13
+      rect:
+        serializedVersion: 2
+        x: 758
+        y: 487
+        width: 249
+        height: 233
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: RunningTurkeyLeft_14
+      rect:
+        serializedVersion: 2
+        x: 1010
+        y: 487
+        width: 248
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: RunningTurkeyLeft_15
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 249
+        width: 248
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: RunningTurkeyLeft_16
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 249
+        width: 247
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: RunningTurkeyLeft_17
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 249
+        width: 246
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: RunningTurkeyLeft_18
+      rect:
+        serializedVersion: 2
+        x: 757
+        y: 249
+        width: 247
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: RunningTurkeyLeft_19
+      rect:
+        serializedVersion: 2
+        x: 1009
+        y: 249
+        width: 248
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: RunningTurkeyLeft_20
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 11
+        width: 248
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: RunningTurkeyLeft_21
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 11
+        width: 249
+        height: 233
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: RunningTurkeyLeft_22
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 12
+        width: 249
+        height: 233
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: RunningTurkeyLeft_23
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 13
+        width: 248
+        height: 233
+      alignment: 0
+      pivot: {x: 0, y: 0}
+  spritePackingTag: 
+  userData: 
