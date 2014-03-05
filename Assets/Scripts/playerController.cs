@@ -5,6 +5,8 @@ public class playerController : MonoBehaviour {
 
 
 	public float maxSpeed= 10f;
+	public Transform spawnPoint;
+	public GameObject Egg;
 	
 
 
@@ -34,7 +36,15 @@ public class playerController : MonoBehaviour {
 		//Moves Forward and back along z axis //Up/Down
 		transform.Translate(Vector3.up * Time.deltaTime * Input.GetAxis("Vertical")* maxSpeed);
 		//Moves Left and right along x Axis //Left/Right
-		transform.Translate(Vector3.right * Time.deltaTime * Input.GetAxis("Horizontal")* maxSpeed);	
+		transform.Translate(Vector3.right * Time.deltaTime * Input.GetAxis("Horizontal")* maxSpeed);
+
+		// Spawn object
+
+		if (Input.GetKeyDown("x"))
+			Instantiate(Egg,spawnPoint.position,spawnPoint.rotation);
+			
+
+	
 
 
 	}

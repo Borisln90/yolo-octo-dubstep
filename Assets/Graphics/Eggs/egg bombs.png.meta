@@ -1,0 +1,261 @@
+fileFormatVersion: 2
+guid: 9aaaeac7ac1f2c84ea86e9308d23d356
+TextureImporter:
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: egg bombs_0
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 1049
+        width: 112
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: egg bombs_1
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 1049
+        width: 111
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: egg bombs_2
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 1049
+        width: 112
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: egg bombs_3
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 1048
+        width: 112
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: egg bombs_4
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 1049
+        width: 112
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: egg bombs_5
+      rect:
+        serializedVersion: 2
+        x: 618
+        y: 1048
+        width: 113
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: egg bombs_6
+      rect:
+        serializedVersion: 2
+        x: 739
+        y: 1049
+        width: 112
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: egg bombs_7
+      rect:
+        serializedVersion: 2
+        x: 860
+        y: 1048
+        width: 112
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: egg bombs_8
+      rect:
+        serializedVersion: 2
+        x: 981
+        y: 1049
+        width: 112
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: egg bombs_9
+      rect:
+        serializedVersion: 2
+        x: 1103
+        y: 1049
+        width: 111
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: egg bombs_10
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 897
+        width: 112
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: egg bombs_11
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 897
+        width: 111
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: egg bombs_12
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 897
+        width: 111
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: egg bombs_13
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 897
+        width: 112
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: egg bombs_14
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 897
+        width: 111
+        height: 149
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: egg bombs_15
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 897
+        width: 111
+        height: 149
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: egg bombs_16
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 896
+        width: 112
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: egg bombs_17
+      rect:
+        serializedVersion: 2
+        x: 854
+        y: 896
+        width: 112
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: egg bombs_18
+      rect:
+        serializedVersion: 2
+        x: 977
+        y: 896
+        width: 111
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: egg bombs_19
+      rect:
+        serializedVersion: 2
+        x: 1099
+        y: 897
+        width: 112
+        height: 149
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: egg bombs_20
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 745
+        width: 112
+        height: 149
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: egg bombs_21
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 745
+        width: 111
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: egg bombs_22
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 745
+        width: 111
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: egg bombs_23
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 745
+        width: 112
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+  spritePackingTag: 
+  userData: 
