@@ -1,8 +1,9 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\eggScript.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/eggScript.cs">
     <Files>
-      <File FileName="Assets\Scripts\eggScript.cs" Line="17" Column="2" />
+      <File FileName="Assets/Scripts/eggScript.cs" Line="24" Column="5" />
+      <File FileName="Assets/Scripts/playerController.cs" Line="44" Column="15" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
