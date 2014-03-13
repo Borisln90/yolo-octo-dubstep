@@ -16,13 +16,21 @@ public class explosionController : MonoBehaviour {
 		case 0:
 			this.transform.Translate(Vector3.down);
 			break;
+		case 1:
+			this.transform.Translate(Vector3.up);
+			break;
+		case 2:
+			this.transform.Translate(Vector3.left);
+			break;
+		case 3:
+			this.transform.Translate(Vector3.right);
+			break;
 		default:
 			break;
 		}
-	
 	}
 
-	public void StartMove () {
-		
+	void setDirection(int x) {
+		this.direction = x;
 	}
 }
