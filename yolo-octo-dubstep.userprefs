@@ -1,11 +1,10 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/eggScript.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench>
     <Files>
-      <File FileName="Assets/Scripts/eggScript.cs" Line="33" Column="1" />
-      <File FileName="Assets/Scripts/eggScript.cs" Line="28" Column="7" />
+      <File FileName="Assets/Scripts/eggScript.cs" Line="20" Column="34" />
       <File FileName="Assets/Scripts/playerController.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/explosionController.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/explosionController.cs" Line="30" Column="4" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

@@ -26,6 +26,8 @@ public class eggScript : MonoBehaviour {
 				clone = Instantiate(explosion, this.transform.position, this.transform.rotation) as GameObject;
 				clone.SendMessage("setDirection", x); // Probably not the most efficient way, but it works.
 			}
+
+			Destroy(gameObject);
 		}
 	}
 }

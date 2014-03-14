@@ -28,6 +28,19 @@ public class explosionController : MonoBehaviour {
 		default:
 			break;
 		}
+
+		if ( this.transform.position.x > 18 ) {
+			Destroy(gameObject);
+		}
+		if ( this.transform.position.x < -13 ) {
+			Destroy(gameObject);
+		}
+		if ( this.transform.position.y > 18 ) {
+			Destroy(gameObject);
+		}
+		if ( this.transform.position.y < -13 ) {
+			Destroy(gameObject);
+		}
 	}
 
 	void setDirection(int x) {
