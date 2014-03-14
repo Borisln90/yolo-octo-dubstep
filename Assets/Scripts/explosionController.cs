@@ -45,12 +45,14 @@ public class explosionController : MonoBehaviour {
 
 
 	void OnTriggerEnter2D(Collider2D c) {
-		if (c.gameObject.tag == "softBox") {
+		if ( c.gameObject.tag == "softBox" ) {
 			Destroy(c.gameObject);
 			Destroy(this.gameObject);
+			return;
 		}
-		if (c.gameObject.tag == "hardBox") {
+		if ( c.gameObject.tag == "hardBox" ) {
 			Destroy(this.gameObject);
+			return;
 		}
 	}
 
