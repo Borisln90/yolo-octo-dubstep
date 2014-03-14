@@ -29,17 +29,28 @@ public class explosionController : MonoBehaviour {
 			break;
 		}
 
-		if ( this.transform.position.x > 18 ) {
+		if ( this.transform.position.x > 13 ) {
 			Destroy(gameObject);
 		}
 		if ( this.transform.position.x < -13 ) {
 			Destroy(gameObject);
 		}
-		if ( this.transform.position.y > 18 ) {
+		if ( this.transform.position.y > 13 ) {
 			Destroy(gameObject);
 		}
 		if ( this.transform.position.y < -13 ) {
 			Destroy(gameObject);
+		}
+	}
+
+
+	void OnTriggerEnter2D(Collider2D c) {
+		if (c.gameObject.tag == "softBox") {
+			Destroy(c.gameObject);
+			Destroy(this.gameObject);
+		}
+		if (c.gameObject.tag == "hardBox") {
+			Destroy(this.gameObject);
 		}
 	}
 
