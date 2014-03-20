@@ -1,0 +1,261 @@
+fileFormatVersion: 2
+guid: 075f426400d62354cac57a22520a9a29
+TextureImporter:
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: BuffmoveSpeed_0
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 3373
+        width: 720
+        height: 718
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: BuffmoveSpeed_1
+      rect:
+        serializedVersion: 2
+        x: 737
+        y: 3379
+        width: 710
+        height: 706
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: BuffmoveSpeed_2
+      rect:
+        serializedVersion: 2
+        x: 1467
+        y: 3385
+        width: 698
+        height: 694
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: BuffmoveSpeed_3
+      rect:
+        serializedVersion: 2
+        x: 2199
+        y: 3389
+        width: 686
+        height: 684
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: BuffmoveSpeed_4
+      rect:
+        serializedVersion: 2
+        x: 2929
+        y: 3395
+        width: 676
+        height: 674
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: BuffmoveSpeed_5
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 2669
+        width: 682
+        height: 680
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: BuffmoveSpeed_6
+      rect:
+        serializedVersion: 2
+        x: 747
+        y: 2667
+        width: 690
+        height: 686
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: BuffmoveSpeed_7
+      rect:
+        serializedVersion: 2
+        x: 1467
+        y: 2663
+        width: 698
+        height: 694
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: BuffmoveSpeed_8
+      rect:
+        serializedVersion: 2
+        x: 2189
+        y: 2659
+        width: 706
+        height: 702
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: BuffmoveSpeed_9
+      rect:
+        serializedVersion: 2
+        x: 2909
+        y: 2655
+        width: 714
+        height: 710
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: BuffmoveSpeed_10
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 1929
+        width: 720
+        height: 718
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: BuffmoveSpeed_11
+      rect:
+        serializedVersion: 2
+        x: 741
+        y: 1939
+        width: 702
+        height: 698
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: BuffmoveSpeed_12
+      rect:
+        serializedVersion: 2
+        x: 1475
+        y: 1947
+        width: 684
+        height: 682
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: BuffmoveSpeed_13
+      rect:
+        serializedVersion: 2
+        x: 2209
+        y: 1957
+        width: 666
+        height: 662
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: BuffmoveSpeed_14
+      rect:
+        serializedVersion: 2
+        x: 2943
+        y: 1965
+        width: 648
+        height: 646
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: BuffmoveSpeed_15
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 1253
+        width: 628
+        height: 626
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: BuffmoveSpeed_16
+      rect:
+        serializedVersion: 2
+        x: 787
+        y: 1261
+        width: 610
+        height: 608
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: BuffmoveSpeed_17
+      rect:
+        serializedVersion: 2
+        x: 1503
+        y: 1255
+        width: 626
+        height: 622
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: BuffmoveSpeed_18
+      rect:
+        serializedVersion: 2
+        x: 2221
+        y: 1247
+        width: 642
+        height: 638
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: BuffmoveSpeed_19
+      rect:
+        serializedVersion: 2
+        x: 2937
+        y: 1239
+        width: 658
+        height: 654
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: BuffmoveSpeed_20
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 509
+        width: 674
+        height: 670
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: BuffmoveSpeed_21
+      rect:
+        serializedVersion: 2
+        x: 747
+        y: 501
+        width: 690
+        height: 686
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: BuffmoveSpeed_22
+      rect:
+        serializedVersion: 2
+        x: 1463
+        y: 493
+        width: 706
+        height: 702
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: BuffmoveSpeed_23
+      rect:
+        serializedVersion: 2
+        x: 2181
+        y: 485
+        width: 720
+        height: 718
+      alignment: 0
+      pivot: {x: 0, y: 0}
+  spritePackingTag: 
+  userData: 
