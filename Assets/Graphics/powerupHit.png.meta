@@ -1,0 +1,252 @@
+fileFormatVersion: 2
+guid: 746453a6b88a0f9459d0634dbc87162f
+TextureImporter:
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: powerupHit_0
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 1853
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: powerupHit_1
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 1846
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: powerupHit_2
+      rect:
+        serializedVersion: 2
+        x: 876
+        y: 1840
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: powerupHit_3
+      rect:
+        serializedVersion: 2
+        x: 1229
+        y: 1834
+        width: 63
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: powerupHit_4
+      rect:
+        serializedVersion: 2
+        x: 1580
+        y: 1826
+        width: 78
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: powerupHit_5
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 1459
+        width: 96
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: powerupHit_6
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 1451
+        width: 110
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: powerupHit_7
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 1445
+        width: 122
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: powerupHit_8
+      rect:
+        serializedVersion: 2
+        x: 1194
+        y: 1440
+        width: 132
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: powerupHit_9
+      rect:
+        serializedVersion: 2
+        x: 1548
+        y: 1434
+        width: 143
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: powerupHit_10
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 1066
+        width: 163
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: powerupHit_11
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 1057
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: powerupHit_12
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 1050
+        width: 194
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: powerupHit_13
+      rect:
+        serializedVersion: 2
+        x: 1157
+        y: 1044
+        width: 206
+        height: 205
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: powerupHit_14
+      rect:
+        serializedVersion: 2
+        x: 1513
+        y: 1041
+        width: 212
+        height: 211
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: powerupHit_15
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 675
+        width: 226
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: powerupHit_16
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 664
+        width: 248
+        height: 248
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: powerupHit_17
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 655
+        width: 266
+        height: 265
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: powerupHit_18
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 648
+        width: 279
+        height: 279
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: powerupHit_19
+      rect:
+        serializedVersion: 2
+        x: 1475
+        y: 645
+        width: 288
+        height: 286
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: powerupHit_20
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 284
+        width: 290
+        height: 289
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: powerupHit_21
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 273
+        width: 312
+        height: 311
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: powerupHit_22
+      rect:
+        serializedVersion: 2
+        x: 734
+        y: 262
+        width: 334
+        height: 333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+  spritePackingTag: 
+  userData: 
