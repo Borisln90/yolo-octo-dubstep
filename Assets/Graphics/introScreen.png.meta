@@ -1,0 +1,261 @@
+fileFormatVersion: 2
+guid: 31af040770fee444b8c660654eb170f0
+TextureImporter:
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 4096
+  textureSettings:
+    filterMode: -1
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: introScreen_0
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 3287
+        width: 801
+        height: 801
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: introScreen_1
+      rect:
+        serializedVersion: 2
+        x: 830
+        y: 3302
+        width: 771
+        height: 771
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: introScreen_2
+      rect:
+        serializedVersion: 2
+        x: 1635
+        y: 3299
+        width: 768
+        height: 777
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: introScreen_3
+      rect:
+        serializedVersion: 2
+        x: 2431
+        y: 3288
+        width: 791
+        height: 799
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: introScreen_4
+      rect:
+        serializedVersion: 2
+        x: 3258
+        y: 3306
+        width: 754
+        height: 763
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: introScreen_5
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 2487
+        width: 784
+        height: 784
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: introScreen_6
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 2479
+        width: 799
+        height: 799
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: introScreen_7
+      rect:
+        serializedVersion: 2
+        x: 1646
+        y: 2501
+        width: 755
+        height: 755
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: introScreen_8
+      rect:
+        serializedVersion: 2
+        x: 2437
+        y: 2494
+        width: 788
+        height: 779
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: introScreen_9
+      rect:
+        serializedVersion: 2
+        x: 3241
+        y: 2490
+        width: 796
+        height: 787
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: introScreen_10
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 1702
+        width: 745
+        height: 740
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: introScreen_11
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 1673
+        width: 793
+        height: 793
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: introScreen_12
+      rect:
+        serializedVersion: 2
+        x: 1626
+        y: 1673
+        width: 794
+        height: 793
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: introScreen_13
+      rect:
+        serializedVersion: 2
+        x: 2464
+        y: 1698
+        width: 739
+        height: 743
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: introScreen_14
+      rect:
+        serializedVersion: 2
+        x: 3250
+        y: 1672
+        width: 787
+        height: 795
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: introScreen_15
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 867
+        width: 780
+        height: 788
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: introScreen_16
+      rect:
+        serializedVersion: 2
+        x: 838
+        y: 884
+        width: 754
+        height: 754
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: introScreen_17
+      rect:
+        serializedVersion: 2
+        x: 1624
+        y: 861
+        width: 799
+        height: 799
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: introScreen_18
+      rect:
+        serializedVersion: 2
+        x: 2439
+        y: 868
+        width: 785
+        height: 785
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: introScreen_19
+      rect:
+        serializedVersion: 2
+        x: 3258
+        y: 879
+        width: 762
+        height: 754
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: introScreen_20
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 52
+        width: 799
+        height: 790
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: introScreen_21
+      rect:
+        serializedVersion: 2
+        x: 826
+        y: 63
+        width: 778
+        height: 769
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: introScreen_22
+      rect:
+        serializedVersion: 2
+        x: 1638
+        y: 66
+        width: 771
+        height: 771
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: introScreen_23
+      rect:
+        serializedVersion: 2
+        x: 2431
+        y: 51
+        width: 801
+        height: 801
+      alignment: 0
+      pivot: {x: 0, y: 0}
+  spritePackingTag: 
+  userData: 
