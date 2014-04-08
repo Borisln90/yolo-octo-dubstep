@@ -52,6 +52,15 @@ public class playerController : MonoBehaviour {
 
 	}
 
+	void OnTriggerEnter2D (Collider2D c) {
+		if (c.gameObject.tag == "powerUpOne") {
+			print("yo");
+			Destroy(c.gameObject);
+			this.eggLimit = this.eggLimit + 1;
+			
+		}
+	}
+
 	private static bool HasExploded(Object o) {
 		if (o == null) {
 			return true;
