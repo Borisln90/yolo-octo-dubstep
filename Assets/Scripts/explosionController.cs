@@ -4,10 +4,14 @@ using System.Collections;
 public class explosionController : MonoBehaviour {
 
 	public int direction;
+	public float length;
+
+	private Vector3 startPosition;
+
 
 	// Use this for initialization
 	void Start () {
-	
+		startPosition = this.transform.position;
 	}
 	
 	// Update is called once per frame
@@ -39,6 +43,10 @@ public class explosionController : MonoBehaviour {
 			Destroy(gameObject);
 		}
 		if ( this.transform.position.y < -13 ) {
+			Destroy(gameObject);
+		}
+
+		if (Vector3.Distance(this.startPosition, this.transform.position) >= this.length) {
 			Destroy(gameObject);
 		}
 	}
