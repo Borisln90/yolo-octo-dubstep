@@ -27,8 +27,6 @@ public class playerController : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 
-		print(eggs.Count);
-
 		float moveX = Input.GetAxis("Horizontal");
 		float moveY = Input.GetAxis("Vertical");
 
