@@ -2,19 +2,19 @@
 using System.Collections;
 using System.Collections.Generic;
 
-public class playerController : MonoBehaviour {
+public class playerControllerTwo : MonoBehaviour {
 	
 	
 	public float maxSpeed= 10f;
 	public Transform spawnPoint;
 	public GameObject Egg;
 	public int eggLimit;
-	
+
 	public KeyCode up;
 	public KeyCode down;
 	public KeyCode left;
 	public KeyCode right;
-	
+
 	
 	bool keyup = false;
 	bool keydown = false;
@@ -37,55 +37,55 @@ public class playerController : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		
 
-		
+
+
 		
 		anim.SetBool("left",keyleft);
 		anim.SetBool("up",keyup);
 		anim.SetBool("down",keydown);
 		anim.SetBool("right",keyright);
-		
-		
-		
+
+
+
 		//Character controller
 		if(Input.GetKey(up)){
-			transform.Translate(new Vector3(0,maxSpeed,0)* Time.deltaTime);
-			keyleft = false;
-			keyup = true;
-			keyright = false;
-			keydown = false;
+		   transform.Translate(new Vector3(0,maxSpeed,0)* Time.deltaTime);
+		keyleft = false;
+		keyup = true;
+		keyright = false;
+		keydown = false;
 		} 
 		if(Input.GetKey(down)){
-			transform.Translate(new Vector3(0,-maxSpeed,0)* Time.deltaTime);
-			keyleft = false;
-			keyup = false;
-			keyright = false;
-			keydown = true;
+		transform.Translate(new Vector3(0,-maxSpeed,0)* Time.deltaTime);
+		keyleft = false;
+		keyup = false;
+		keyright = false;
+		keydown = true;
 		}
 		if(Input.GetKey(left)){
 			transform.Translate(new Vector3(-maxSpeed,0,0)* Time.deltaTime);
-			keyleft = true;
-			keyup = false;
-			keyright = false;
-			keydown = false;
+		keyleft = true;
+		keyup = false;
+		keyright = false;
+		keydown = false;
 		}
 		if(Input.GetKey(right)){
-			transform.Translate(new Vector3(maxSpeed,0,0)* Time.deltaTime);
-			keyleft = false;
-			keyup = false;
-			keyright = true;
-			keydown = false;
-		}
-		
-		
-		
-		
+		transform.Translate(new Vector3(maxSpeed,0,0)* Time.deltaTime);
+		keyleft = false;
+		keyup = false;
+		keyright = true;
+		keydown = false;
+	}
+
+
+
+
 		
 		
 		// Spawn object
 		
-		if (Input.GetKeyDown("q") && eggs.Count != this.eggLimit) {
+		if (Input.GetKeyDown("m") && eggs.Count != this.eggLimit) {
 			eggs.Add(Instantiate(Egg,spawnPoint.position,spawnPoint.rotation));
 		}
 		eggs.RemoveAll(HasExploded);
