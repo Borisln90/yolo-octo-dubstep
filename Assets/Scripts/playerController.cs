@@ -9,6 +9,7 @@ public class playerController : MonoBehaviour {
 	public Transform spawnPoint;
 	public GameObject Egg;
 	public int eggLimit;
+	public bool playerOneDead = false;
 	
 	public KeyCode up;
 	public KeyCode down;

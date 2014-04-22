@@ -65,8 +65,17 @@ public class explosionController : MonoBehaviour {
 		if ( c.gameObject.tag == "Player" ) {
 			Destroy(c.gameObject); // The player should probably destroy itself for animation reasons. 
 			Destroy(this.gameObject);
+			Application.LoadLevel(1);
 			return;
 		}
+		if ( c.gameObject.tag == "PlayerTwo" ) {
+			Destroy(c.gameObject); // The player should probably destroy itself for animation reasons. 
+			Destroy(this.gameObject);
+			Application.LoadLevel(2);
+			return;
+		}
+
+
 	}
 
 	void setDirection(int x) {
