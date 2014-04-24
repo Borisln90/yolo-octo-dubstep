@@ -37,4 +37,8 @@ public class eggScript : MonoBehaviour {
 	public void setExplosionLength(float l) {
 		this.explosionLength = l;
 	}
+
+	void OnTriggerExit2D (Collider2D c) {
+		this.collider2D.isTrigger = false;
+	}
 }
