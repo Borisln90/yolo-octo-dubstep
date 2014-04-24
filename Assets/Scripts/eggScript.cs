@@ -7,6 +7,8 @@ public class eggScript : MonoBehaviour {
 	public bool hidden = false;
 	public GameObject explosion;
 
+	private float explosionLength = 3f;
+
 	// Use this for initialization
 	void Start () { }
 	
@@ -24,10 +26,15 @@ public class eggScript : MonoBehaviour {
 
 			for (int x = 0; x < 4; x++) {
 				clone = Instantiate(explosion, this.transform.position, this.transform.rotation) as GameObject;
-				clone.SendMessage("setDirection", x); // Probably not the most efficient way, but it works.
+				clone.SendMessage("setDirection", x);
+				clone.SendMessage("setExplosionLength", this.explosionLength); // Probably not the most efficient way, but it works.
 			}
 
 			Destroy(gameObject);
 		}
+	}
+
+	public void setExplosionLength(float l) {
+		this.explosionLength = l;
 	}
 }
