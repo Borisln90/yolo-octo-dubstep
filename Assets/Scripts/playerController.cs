@@ -6,6 +6,7 @@ public class playerController : MonoBehaviour {
 	
 	
 	public float maxSpeed= 10f;
+	public float explosionLength;
 	public Transform spawnPoint;
 	public GameObject Egg;
 	public int eggLimit;
@@ -87,7 +88,9 @@ public class playerController : MonoBehaviour {
 		// Spawn object
 		
 		if (Input.GetKeyDown("q") && eggs.Count != this.eggLimit) {
-			eggs.Add(Instantiate(Egg,spawnPoint.position,spawnPoint.rotation));
+			GameObject e = Instantiate(Egg,spawnPoint.position,spawnPoint.rotation) as GameObject;
+			e.SendMessage("setExplosionLength", this.explosionLength);
+			eggs.Add(e);
 		}
 		eggs.RemoveAll(HasExploded);
 		
@@ -98,10 +101,16 @@ public class playerController : MonoBehaviour {
 	
 	void OnTriggerEnter2D (Collider2D c) {
 		if (c.gameObject.tag == "powerUpOne") {
-			print("yo");
 			Destroy(c.gameObject);
-			this.eggLimit = this.eggLimit + 1;
-			
+			this.eggLimit = this.eggLimit + 1;	
+		}
+		if (c.gameObject.tag == "powerUpSpeed") {
+			Destroy(c.gameObject);
+			this.maxSpeed += 3f;
+		}
+		if (c.gameObject.tag == "powerUpBomb") {
+			Destroy(c.gameObject);
+			this.explosionLength += 2f;
 		}
 	}
 	

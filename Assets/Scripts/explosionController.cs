@@ -4,8 +4,8 @@ using System.Collections;
 public class explosionController : MonoBehaviour {
 
 	public int direction;
-	public float length;
 
+	private float length = 3f;
 	private Vector3 startPosition;
 
 
@@ -80,5 +80,9 @@ public class explosionController : MonoBehaviour {
 
 	void setDirection(int x) {
 		this.direction = x;
+	}
+
+	public void setExplosionLength(float l) {
+		this.length = l;
 	}
 }
