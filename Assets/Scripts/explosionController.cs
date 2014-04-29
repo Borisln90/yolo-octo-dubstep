@@ -4,6 +4,7 @@ using System.Collections;
 public class explosionController : MonoBehaviour {
 
 	public int direction;
+	public AudioClip Explosion1;
 
 	private float length = 3f;
 	private Vector3 startPosition;
@@ -18,42 +19,63 @@ public class explosionController : MonoBehaviour {
 	void Update () {
 		switch (direction) {
 		case 0:
-			this.transform.Translate(Vector3.down);
+			this.transform.Translate(Vector3.down); //makes the explosion go down
 			break;
 		case 1:
-			this.transform.Translate(Vector3.up);
+			this.transform.Translate(Vector3.up); //makes the explosion go up
 			break;
 		case 2:
-			this.transform.Translate(Vector3.left);
+			this.transform.Translate(Vector3.left); //makes the explosion go left
 			break;
 		case 3:
-			this.transform.Translate(Vector3.right);
+			this.transform.Translate(Vector3.right); //makes the explosion go right
 			break;
 		default:
 			break;
 		}
 
-		if ( this.transform.position.x > 13 ) {
+		//sets the maximum length of the explosion so it wont reach further than the maps length
+		if ( this.transform.position.x > 13 ) { 
+			audio.PlayOneShot(Explosion1);
 			Destroy(gameObject);
 		}
 		if ( this.transform.position.x < -13 ) {
+			audio.PlayOneShot(Explosion1);
 			Destroy(gameObject);
 		}
 		if ( this.transform.position.y > 13 ) {
+			audio.PlayOneShot(Explosion1);
 			Destroy(gameObject);
 		}
 		if ( this.transform.position.y < -13 ) {
+			audio.PlayOneShot(Explosion1);
 			Destroy(gameObject);
 		}
 
 		if (Vector3.Distance(this.startPosition, this.transform.position) >= this.length) {
+			audio.PlayOneShot(Explosion1);
 			Destroy(gameObject);
 		}
 	}
 
-
+	//stops the explosion from going further when it hits a gameobject 
 	void OnTriggerEnter2D(Collider2D c) {
-		if ( c.gameObject.tag == "softBox" ) {
+		if ( c.gameObject.tag == "softBox" ) { 
+			Destroy(c.gameObject);
+			Destroy(this.gameObject);
+			return;
+		}
+		if (c.gameObject.tag == "powerUpBomb") {
+			Destroy (c.gameObject);
+			Destroy (this.gameObject);
+			return;
+		}
+		if (c.gameObject.tag == "powerUpOne") {
+			Destroy(c.gameObject);
+			Destroy(this.gameObject);
+			return;
+		}
+		if (c.gameObject.tag == "powerUpSpeed") {
 			Destroy(c.gameObject);
 			Destroy(this.gameObject);
 			return;
