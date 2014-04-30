@@ -21,7 +21,7 @@ public class PowerupScript : MonoBehaviour {
 		System.Random rnd = new System.Random();
 
 
-		for (int i = 0; i < 5; i++) {
+		for (int i = 0; i < 6; i++) {
 			bool spotAvailable = false;
 			while (!spotAvailable) {
 				box = boxes[rnd.Next(0, boxes.Length)] as GameObject;

@@ -12,7 +12,7 @@ public class QuitScript : MonoBehaviour {
 	void Update () {
 
 		if (Input.GetMouseButtonDown(0))
-			Application.Quit();
+			Application.LoadLevel(0);
 	
 	}
 }

@@ -4,15 +4,15 @@ using System.Collections;
 public class explosionController : MonoBehaviour {
 
 	public int direction;
-	public AudioClip Explosion1;
+	public AudioClip boom;
 
 	private float length = 3f;
 	private Vector3 startPosition;
 
-
 	// Use this for initialization
 	void Start () {
 		startPosition = this.transform.position;
+		audio.Play ();
 	}
 	
 	// Update is called once per frame
@@ -36,24 +36,19 @@ public class explosionController : MonoBehaviour {
 
 		//sets the maximum length of the explosion so it wont reach further than the maps length
 		if ( this.transform.position.x > 13 ) { 
-			audio.PlayOneShot(Explosion1);
 			Destroy(gameObject);
 		}
 		if ( this.transform.position.x < -13 ) {
-			audio.PlayOneShot(Explosion1);
 			Destroy(gameObject);
 		}
 		if ( this.transform.position.y > 13 ) {
-			audio.PlayOneShot(Explosion1);
 			Destroy(gameObject);
 		}
 		if ( this.transform.position.y < -13 ) {
-			audio.PlayOneShot(Explosion1);
 			Destroy(gameObject);
 		}
 
 		if (Vector3.Distance(this.startPosition, this.transform.position) >= this.length) {
-			audio.PlayOneShot(Explosion1);
 			Destroy(gameObject);
 		}
 	}
@@ -65,21 +60,21 @@ public class explosionController : MonoBehaviour {
 			Destroy(this.gameObject);
 			return;
 		}
-		if (c.gameObject.tag == "powerUpBomb") {
-			Destroy (c.gameObject);
-			Destroy (this.gameObject);
-			return;
-		}
-		if (c.gameObject.tag == "powerUpOne") {
-			Destroy(c.gameObject);
-			Destroy(this.gameObject);
-			return;
-		}
-		if (c.gameObject.tag == "powerUpSpeed") {
-			Destroy(c.gameObject);
-			Destroy(this.gameObject);
-			return;
-		}
+	//	if (c.gameObject.tag == "powerUpBomb") {
+	//		Destroy (c.gameObject);
+	//		Destroy (this.gameObject);
+	//		return;
+	//	}
+	//	if (c.gameObject.tag == "powerUpOne") {
+	//		Destroy(c.gameObject);
+	//		Destroy(this.gameObject);
+	//		return;
+	//	}
+	//	if (c.gameObject.tag == "powerUpSpeed") {
+	//		Destroy(c.gameObject);
+	//		Destroy(this.gameObject);
+	//		return;
+	//	}
 		if ( c.gameObject.tag == "hardBox" ) {
 			Destroy(this.gameObject);
 			return;
@@ -87,17 +82,23 @@ public class explosionController : MonoBehaviour {
 		if ( c.gameObject.tag == "Player" ) {
 			Destroy(c.gameObject); // The player should probably destroy itself for animation reasons. 
 			Destroy(this.gameObject);
-			Application.LoadLevel(3);
 			return;
 		}
 		if ( c.gameObject.tag == "PlayerTwo" ) {
 			Destroy(c.gameObject); // The player should probably destroy itself for animation reasons. 
 			Destroy(this.gameObject);
-			Application.LoadLevel(2);
 			return;
 		}
-
-
+		if ( c.gameObject.tag == "PlayerThree" ) {
+			Destroy(c.gameObject); // The player should probably destroy itself for animation reasons. 
+			Destroy(this.gameObject);
+			return;
+		}
+		if ( c.gameObject.tag == "PlayerFour" ) {
+			Destroy(c.gameObject); // The player should probably destroy itself for animation reasons. 
+			Destroy(this.gameObject);
+			return;
+		}
 	}
 
 	void setDirection(int x) {

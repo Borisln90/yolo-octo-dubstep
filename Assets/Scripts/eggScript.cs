@@ -6,12 +6,12 @@ public class eggScript : MonoBehaviour {
 	public float lifeTime = 3; 
 	public bool hidden = false;
 	public GameObject explosion;
-	public AudioClip BOOM;
 
 	private float explosionLength = 3f; //explosion timer
 
 	// Use this for initialization
-	void Start () { }
+	void Start () { 
+	}
 	
 	// Update is called once per frame
 	void Update () {
@@ -23,8 +23,6 @@ public class eggScript : MonoBehaviour {
 		if ( lifeTime <= 0 && this.renderer.enabled ) {
 			this.renderer.enabled = false;
 			this.hidden = true;
-			Debug.Log("lolololol");
-			audio.PlayOneShot(BOOM);
 
 			GameObject clone;
 
@@ -33,8 +31,7 @@ public class eggScript : MonoBehaviour {
 				clone = Instantiate(explosion, this.transform.position, this.transform.rotation) as GameObject;
 				clone.SendMessage("setDirection", x);
 				clone.SendMessage("setExplosionLength", this.explosionLength); // Probably not the most efficient way, but it works.
-
-				}
+			}
 			Destroy(gameObject);
 		}
 	}
