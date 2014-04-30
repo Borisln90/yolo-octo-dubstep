@@ -11,8 +11,8 @@ public class QuitScript : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 
-		if (Input.GetMouseButtonDown(0))
-			Application.LoadLevel(0);
+		if (Input.GetMouseButtonDown(0)) // If Left Mouse Down is pressed
+			Application.LoadLevel(0);	//Loads level 0 application
 	
 	}
 }

@@ -4,25 +4,28 @@ using System.Collections.Generic;
 
 public class PowerupScript : MonoBehaviour {
 
+	//Creates gameObjects.
 	public GameObject plusOneBrick;
 	public GameObject bombBrick;
 	public GameObject speedBrick;
 
 
-	// Use this for initialization
+	// At initialization, places powerups under random soft boxes. Makes sure powerups aren't placed on top of each other.
 	void Start () {
 
-		GameObject[] boxes;
-		List<GameObject> powerups = new List<GameObject>();
+		GameObject[] boxes; // Array to hold all softboxes						
+		List<GameObject> powerups = new List<GameObject>(); // List to hold all placed powerups
 		GameObject box = null;
 
 		boxes = GameObject.FindGameObjectsWithTag("softBox");
 
+		// System.Random seems to provide more random posistions than unity standard random.
 		System.Random rnd = new System.Random();
 
-
+		// places 5 of each
 		for (int i = 0; i < 6; i++) {
 			bool spotAvailable = false;
+			// find the posistion of a random softbox. loop if position already taken
 			while (!spotAvailable) {
 				box = boxes[rnd.Next(0, boxes.Length)] as GameObject;
 				if (powerups.Count == 0) {
@@ -37,8 +40,10 @@ public class PowerupScript : MonoBehaviour {
 					}
 				}
 			}
+			// place the powerup at box posistion
 			powerups.Add(Instantiate(plusOneBrick, box.transform.position, Quaternion.identity) as GameObject);
 
+			// Repeat for all types of powerup
 			spotAvailable = false;
 			while (!spotAvailable) {
 				box = boxes[rnd.Next(0, boxes.Length)] as GameObject;
@@ -73,14 +78,8 @@ public class PowerupScript : MonoBehaviour {
 			}
 			powerups.Add(Instantiate(speedBrick, box.transform.position, Quaternion.identity) as GameObject);
 		}
-		 // Instantiate a prefab randomly on stage.
-		//Missing: Define specific arrays for placements, so that it doesnt end up where you cant reach it
-
-
 	}
 	
 	// Update is called once per frame
-	void Update () {
-	
-	}
+	void Update () {}
 }

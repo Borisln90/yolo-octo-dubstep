@@ -3,7 +3,7 @@ using System.Collections;
 
 public class eggScript : MonoBehaviour {
 
-	public float lifeTime = 3; 
+	public float lifeTime = 3; //Float that controls lifetime of the egg spawns
 	public bool hidden = false;
 	public GameObject explosion;
 
@@ -16,7 +16,7 @@ public class eggScript : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		if ( !hidden ) {
-			lifeTime -= Time.deltaTime; //reducing the time by seconds
+			lifeTime -= Time.deltaTime; //reducing the time by seconds from 3-0
 		}
 
 		//when lifetime hits 0 removes the "egg" and starts explosioncontroller script
