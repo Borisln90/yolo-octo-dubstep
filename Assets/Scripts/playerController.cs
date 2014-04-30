@@ -10,12 +10,12 @@ public class playerController : MonoBehaviour {
 	public Transform spawnPoint;
 	public GameObject Egg;
 	public int eggLimit;
-	public bool playerOneDead = false;
 	
 	public KeyCode up;
 	public KeyCode down;
 	public KeyCode left;
 	public KeyCode right;
+	public KeyCode BombLaying;
 	
 	
 	bool keyup = false;
@@ -87,7 +87,7 @@ public class playerController : MonoBehaviour {
 		
 		// Spawn object
 		
-		if (Input.GetKeyDown("q") && eggs.Count != this.eggLimit) {
+		if (Input.GetKeyDown(BombLaying) && eggs.Count != this.eggLimit) {
 			GameObject e = Instantiate(Egg,spawnPoint.position,spawnPoint.rotation) as GameObject;
 			e.SendMessage("setExplosionLength", this.explosionLength);
 			eggs.Add(e);

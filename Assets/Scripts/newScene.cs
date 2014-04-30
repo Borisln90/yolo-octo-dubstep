@@ -14,8 +14,8 @@ public class newScene : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		if(Input.GetButton("2player")){ // Space button to go to the actual game
-			Application.LoadLevel (1); // set the "game" scene to level 2. Done in build settings
+		if(Input.GetButton("2player")){
+			Application.LoadLevel (1);
 		}
 		if(Input.GetButton("3player")){
 			Application.LoadLevel (4);
