@@ -20,8 +20,8 @@ public class eggScript : MonoBehaviour {
 		}
 
 		//when lifetime hits 0 removes the "egg" and starts explosioncontroller script
-		if ( lifeTime <= 0 && this.renderer.enabled ) {
-			this.renderer.enabled = false;
+		if ( lifeTime <= 0 && this.GetComponent<Renderer>().enabled ) {
+			this.GetComponent<Renderer>().enabled = false;
 			this.hidden = true;
 
 			GameObject clone;
@@ -41,6 +41,6 @@ public class eggScript : MonoBehaviour {
 	}
 
 	void OnTriggerExit2D (Collider2D c) {
-		this.collider2D.isTrigger = false;
+		this.GetComponent<Collider2D>().isTrigger = false;
 	}
 }

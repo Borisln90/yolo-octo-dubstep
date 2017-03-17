@@ -12,7 +12,7 @@ public class explosionController : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		startPosition = this.transform.position;
-		audio.Play ();
+		GetComponent<AudioSource>().Play ();
 	}
 	
 	// Update is called once per frame
